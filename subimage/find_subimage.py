@@ -113,7 +113,7 @@ def main():
     sys.exit(-1)
 
   if args.verbose:
-    print '\tProcessing primary input file ' + primary_image_filename + ' and subimage file ' + primary_image_filename + '.'
+    print '\tProcessing primary input file ' + primary_image_filename + ' and subimage file ' + subimage_filename + '.'
     print '\tGenerating output ' + outfile
 
   image_locations = find_subimages_from_files(primary_image_filename, subimage_filename,confidence=args.confidence,)
